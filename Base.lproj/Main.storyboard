@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="UvW-0D-V4S">
+            <objects>
+                <navigationController storyboardIdentifier="loginNavigationController" id="I0F-44-Jpz" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Eir-PG-28W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NIL-6f-3FA" kind="relationship" relationship="rootViewController" id="myb-6P-9oT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RhV-hQ-lMf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1003" y="-107"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="mpf-Oi-6ju">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="NIL-6f-3FA" customClass="LoginViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lVQ-ke-qRW"/>
+                        <viewControllerLayoutGuide type="bottom" id="edG-5H-6Ze"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Boh-QM-d7T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0um-zL-Z9V"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aDq-Af-sxg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-300" y="-107"/>
+        </scene>
+        <!--Lead Capture Method View Controller-->
+        <scene sceneID="LwO-1w-TQe">
+            <objects>
+                <viewController storyboardIdentifier="leadCaptureMethodViewController" id="ceT-Tc-0sA" customClass="LeadCaptureMethodViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h81-N5-k1Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="X9a-Jb-H0X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nqJ-In-IK9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SKQ-tM-Zo6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="258" y="-107"/>
+        </scene>
+        <!--Manual Lead Entry View Controller-->
+        <scene sceneID="Zbi-46-BTb">
+            <objects>
+                <viewController storyboardIdentifier="manualLeadEntryViewController" id="rBX-1y-5sZ" customClass="ManualLeadEntryViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dB1-xG-9iy"/>
+                        <viewControllerLayoutGuide type="bottom" id="sC1-df-qol"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gbF-09-buG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PAI-i3-KpF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="-107"/>
+        </scene>
+        <!--Shirt Slogan View Controller-->
+        <scene sceneID="aNV-HF-yGP">
+            <objects>
+                <viewController storyboardIdentifier="shirtSloganViewController" id="ie6-eX-z1M" customClass="ShirtSloganViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lmF-4G-85n"/>
+                        <viewControllerLayoutGuide type="bottom" id="aNx-OO-J3k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C2V-yB-cOE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3dq-il-L7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492" y="-107"/>
+        </scene>
+        <!--Shirt Size View Controller-->
+        <scene sceneID="9TO-c3-7FW">
+            <objects>
+                <viewController storyboardIdentifier="shirtSizeViewController" id="782-cd-Vkx" customClass="ShirtSizeViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jo4-zF-VlD"/>
+                        <viewControllerLayoutGuide type="bottom" id="GhT-o2-ETC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fsB-St-LJg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ngm-96-zQl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2143" y="-107"/>
+        </scene>
+        <!--Use Case View Controller-->
+        <scene sceneID="tv8-DJ-RGy">
+            <objects>
+                <viewController storyboardIdentifier="useCaseViewController" id="Ir8-g2-OUf" customClass="UseCaseViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tEQ-OC-5fs"/>
+                        <viewControllerLayoutGuide type="bottom" id="tGW-0P-Rz5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rm8-zt-JIh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dLd-0a-NCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2807" y="-107"/>
+        </scene>
+        <!--Competition View Controller-->
+        <scene sceneID="MN2-bU-3ua">
+            <objects>
+                <viewController storyboardIdentifier="competitionViewController" id="xrE-Bj-nee" customClass="CompetitionViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bGT-pL-DOf"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZkR-br-ybR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Df8-Ad-7RZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="46w-cC-RdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3437" y="-107"/>
+        </scene>
+        <!--Notes View Controller-->
+        <scene sceneID="AAr-Jq-n38">
+            <objects>
+                <viewController storyboardIdentifier="notesViewController" id="0Jx-ug-x4T" customClass="NotesViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5I4-Lf-mze"/>
+                        <viewControllerLayoutGuide type="bottom" id="G87-pc-QKU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4LA-5b-ifL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4A6-Qj-VT2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4094" y="-112"/>
+        </scene>
+        <!--Scan View Controller-->
+        <scene sceneID="3fL-0b-sof">
+            <objects>
+                <viewController storyboardIdentifier="qrScanViewController" id="Vvd-rL-seO" customClass="RSQRScanViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Enn-AJ-4ko"/>
+                        <viewControllerLayoutGuide type="bottom" id="jHl-BW-23Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xN9-mh-QcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6AJ-r9-vTH">
+                                <rect key="frame" x="200" y="244" width="201" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="Pff-zH-bGr"/>
+                                    <constraint firstAttribute="width" constant="201" id="vR3-10-jt4"/>
+                                </constraints>
+                                <state key="normal" title="Scan">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scanAction:" destination="Vvd-rL-seO" eventType="touchUpInside" id="AHg-LM-Vgz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KP1-Mo-DlS">
+                                <rect key="frame" x="33" y="20" width="551" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.19607844948768616" green="0.48627454042434692" blue="0.92549026012420654" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="6AJ-r9-vTH" secondAttribute="centerX" id="CCJ-Qp-tjk"/>
+                            <constraint firstAttribute="centerY" secondItem="6AJ-r9-vTH" secondAttribute="centerY" id="J5R-BP-kLl"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ccc-94-xg8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4713" y="-112"/>
+        </scene>
+        <!--Success View Controller-->
+        <scene sceneID="Jmf-vq-2wL">
+            <objects>
+                <viewController storyboardIdentifier="successViewController" id="3Gy-mr-jMe" customClass="SuccessViewController" customModule="SplunktApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7mn-sM-Oe5"/>
+                        <viewControllerLayoutGuide type="bottom" id="eDU-fc-sCg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="njt-ZP-4kZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W4M-KS-wZi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5333" y="-112"/>
+        </scene>
+    </scenes>
+</document>
